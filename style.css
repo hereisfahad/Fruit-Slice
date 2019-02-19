@@ -1,0 +1,107 @@
+/* body doesnt workout to be in a circle
+body{
+    height: 100%;
+    background: radial-gradient(circle,#fff,#aaa);
+}
+*/
+/*using html to create bg radiant of grey color circle with white center*/
+html{
+    height:100%;
+    background: radial-gradient(circle,#fff,#aaa);
+}
+#container{
+    height: 600px;
+    width: 750px;
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    border-radius: 3%;
+    box-shadow: 0px 4px 0px #009DE4;
+    padding: 20px;
+    position: relative;
+}
+#score{
+    background-color: #F1FF92;
+    color: #888E5F;
+    font-size: 20px;
+    float: right;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0px 4px 0px #9DA853;
+}
+#trials{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    background-color: #F1FF92;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0px 4px 0px #7EA8BB;
+/*    box-shadow: 0px 4px rgba(0, 0, 0, 0.2)*/
+    border-radius: 3px;
+    display:block;
+}
+#FruitDisplay{
+    background-color: white;
+    height: 350px;
+    width: 650px;
+/*
+    position: absolute;
+    left:90px;
+    top:80px;
+*/
+    margin: 70px auto 10px auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: cursive;
+    color: black;
+    line-height: 55px;
+    box-shadow: 0px 4px 0px #535AA8
+}
+
+#gameover{
+    background: linear-gradient(#f3c66b,#F3706B);
+    height: 200px;
+    width: 500px;
+    position: absolute;
+/*    padding-top: 50px;*/
+    margin: 20px auto;
+    z-index: 2;
+    left:145px;
+    top:150px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 45px;
+/*    display: none;*/
+}
+
+#guide{
+    background-color: #B481D9;
+    height: 50px;
+    width: 450px;
+/*
+    position: absolute;
+    left:90px;
+    top:240px;
+*/
+    margin: 10px auto 10px auto;
+    text-align: center;
+    font-size: 20px;
+/*    padding-top: 15px;*/
+    line-height: 57px;
+    box-shadow: 0px 4px 0px #8153A8;
+}
+
+#start{
+    position: absolute;
+    left: 350px;
+    top: 500px;
+    margin: 10px auto;
+    background-color: #CEE8F4;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 4px 0px #7EA8BB;
+    border-radius: 5px;
+    cursor: pointer;
+}
