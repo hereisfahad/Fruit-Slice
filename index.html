@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div id="container">
+    <div id="container">
       <div id="trials">
-            <span id="trialsValue">0</span>
        </div>
        <div id="score">
            Score: <span id="scorevalue"></span>
        </div>
-
        <div id="FruitDisplay">
-           <span id="fruitValue"></span>
+           <img  id="fruit"/>
        </div>
        <div id="guide">
            Catch Fruits
        </div>
-
        <div id="gameover">
            GAME OVER!<br> YOUR SCORE IS <span id="finalScore">0</span>.
        </div>
-       <button id="start" onclick="startBtn()">
+       <button id="start">
            <span id="btnText">Start Game</span>
        </button>
-       
-   </div>
-    <script src="javascript.mini.js"></script>
+       <audio id="slice" >
+           <source src="audio/slicefruit.mp3"/>
+           <source src="audio/slicefruit.ogg"/>
+       </audio>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
 </body>
 </html>
